@@ -1,18 +1,10 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
+import Login from "./components/Login";
+import AddFriend from "./components/AddFriend";
+import FriendsList from "./components/FriendsList";
 
-const Login = () => {
-  return <h2>Login</h2>;
-};
-
-const FriendsList = () => {
-  return <h2>FriendsList</h2>;
-};
-
-const AddFriend = () => {
-  return <h2>AddFriend</h2>;
-};
 function App() {
   return (
     <Router>
